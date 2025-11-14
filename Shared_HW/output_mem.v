@@ -31,6 +31,8 @@ always @(posedge Clock) begin
     end
 end
 
+wire [127:0] mem_out;
 assign mem_out = {mem_block[0], mem_block[1], mem_block[2], mem_block[3]};
+assign out_data = mem_out;
 
 endmodule
