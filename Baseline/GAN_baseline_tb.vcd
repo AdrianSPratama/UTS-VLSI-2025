@@ -1,0 +1,1119 @@
+$date
+	Sat Nov 08 19:53:56 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module GAN_baseline_tb $end
+$var wire 32 ! f4 [31:0] $end
+$var wire 32 " f3 [31:0] $end
+$var wire 32 # f2 [31:0] $end
+$var wire 32 $ f1 [31:0] $end
+$var reg 6 % b_l1_1 [5:0] $end
+$var reg 6 & b_l1_2 [5:0] $end
+$var reg 6 ' b_l1_3 [5:0] $end
+$var reg 6 ( b_l1_4 [5:0] $end
+$var reg 6 ) b_l2_1 [5:0] $end
+$var reg 6 * b_l2_2 [5:0] $end
+$var reg 6 + b_l3_1 [5:0] $end
+$var reg 6 , b_l4_1 [5:0] $end
+$var reg 6 - b_l5_1 [5:0] $end
+$var reg 6 . b_l6_1 [5:0] $end
+$var reg 6 / b_l6_2 [5:0] $end
+$var reg 6 0 b_l7_1 [5:0] $end
+$var reg 6 1 b_l7_2 [5:0] $end
+$var reg 6 2 b_l7_3 [5:0] $end
+$var reg 6 3 b_l7_4 [5:0] $end
+$var reg 6 4 b_l8_1 [5:0] $end
+$var reg 6 5 b_l8_2 [5:0] $end
+$var reg 6 6 b_l8_3 [5:0] $end
+$var reg 6 7 b_l8_4 [5:0] $end
+$var reg 6 8 w_l1_11 [5:0] $end
+$var reg 6 9 w_l1_12 [5:0] $end
+$var reg 6 : w_l1_13 [5:0] $end
+$var reg 6 ; w_l1_14 [5:0] $end
+$var reg 6 < w_l1_21 [5:0] $end
+$var reg 6 = w_l1_22 [5:0] $end
+$var reg 6 > w_l1_23 [5:0] $end
+$var reg 6 ? w_l1_24 [5:0] $end
+$var reg 6 @ w_l1_31 [5:0] $end
+$var reg 6 A w_l1_32 [5:0] $end
+$var reg 6 B w_l1_33 [5:0] $end
+$var reg 6 C w_l1_34 [5:0] $end
+$var reg 6 D w_l1_41 [5:0] $end
+$var reg 6 E w_l1_42 [5:0] $end
+$var reg 6 F w_l1_43 [5:0] $end
+$var reg 6 G w_l1_44 [5:0] $end
+$var reg 6 H w_l2_11 [5:0] $end
+$var reg 6 I w_l2_12 [5:0] $end
+$var reg 6 J w_l2_21 [5:0] $end
+$var reg 6 K w_l2_22 [5:0] $end
+$var reg 6 L w_l2_31 [5:0] $end
+$var reg 6 M w_l2_32 [5:0] $end
+$var reg 6 N w_l2_41 [5:0] $end
+$var reg 6 O w_l2_42 [5:0] $end
+$var reg 6 P w_l3_11 [5:0] $end
+$var reg 6 Q w_l3_21 [5:0] $end
+$var reg 6 R w_l4_11 [5:0] $end
+$var reg 6 S w_l5_11 [5:0] $end
+$var reg 6 T w_l6_11 [5:0] $end
+$var reg 6 U w_l6_12 [5:0] $end
+$var reg 6 V w_l7_11 [5:0] $end
+$var reg 6 W w_l7_12 [5:0] $end
+$var reg 6 X w_l7_13 [5:0] $end
+$var reg 6 Y w_l7_14 [5:0] $end
+$var reg 6 Z w_l7_21 [5:0] $end
+$var reg 6 [ w_l7_22 [5:0] $end
+$var reg 6 \ w_l7_23 [5:0] $end
+$var reg 6 ] w_l7_24 [5:0] $end
+$var reg 6 ^ w_l8_11 [5:0] $end
+$var reg 6 _ w_l8_12 [5:0] $end
+$var reg 6 ` w_l8_13 [5:0] $end
+$var reg 6 a w_l8_14 [5:0] $end
+$var reg 6 b w_l8_21 [5:0] $end
+$var reg 6 c w_l8_22 [5:0] $end
+$var reg 6 d w_l8_23 [5:0] $end
+$var reg 6 e w_l8_24 [5:0] $end
+$var reg 6 f w_l8_31 [5:0] $end
+$var reg 6 g w_l8_32 [5:0] $end
+$var reg 6 h w_l8_33 [5:0] $end
+$var reg 6 i w_l8_34 [5:0] $end
+$var reg 6 j w_l8_41 [5:0] $end
+$var reg 6 k w_l8_42 [5:0] $end
+$var reg 6 l w_l8_43 [5:0] $end
+$var reg 6 m w_l8_44 [5:0] $end
+$var reg 6 n x1 [5:0] $end
+$var reg 6 o x2 [5:0] $end
+$var reg 6 p x3 [5:0] $end
+$var reg 6 q x4 [5:0] $end
+$scope module GAN $end
+$var wire 6 r b_l1_1 [5:0] $end
+$var wire 6 s b_l1_2 [5:0] $end
+$var wire 6 t b_l1_3 [5:0] $end
+$var wire 6 u b_l1_4 [5:0] $end
+$var wire 6 v b_l2_1 [5:0] $end
+$var wire 6 w b_l2_2 [5:0] $end
+$var wire 6 x b_l3_1 [5:0] $end
+$var wire 6 y b_l4_1 [5:0] $end
+$var wire 6 z b_l5_1 [5:0] $end
+$var wire 6 { b_l6_1 [5:0] $end
+$var wire 6 | b_l6_2 [5:0] $end
+$var wire 6 } b_l7_1 [5:0] $end
+$var wire 6 ~ b_l7_2 [5:0] $end
+$var wire 6 !" b_l7_3 [5:0] $end
+$var wire 6 "" b_l7_4 [5:0] $end
+$var wire 6 #" b_l8_1 [5:0] $end
+$var wire 6 $" b_l8_2 [5:0] $end
+$var wire 6 %" b_l8_3 [5:0] $end
+$var wire 6 &" b_l8_4 [5:0] $end
+$var wire 32 '" f1 [31:0] $end
+$var wire 32 (" f2 [31:0] $end
+$var wire 32 )" f3 [31:0] $end
+$var wire 32 *" f4 [31:0] $end
+$var wire 6 +" w_l1_11 [5:0] $end
+$var wire 6 ," w_l1_12 [5:0] $end
+$var wire 6 -" w_l1_13 [5:0] $end
+$var wire 6 ." w_l1_14 [5:0] $end
+$var wire 6 /" w_l1_21 [5:0] $end
+$var wire 6 0" w_l1_22 [5:0] $end
+$var wire 6 1" w_l1_23 [5:0] $end
+$var wire 6 2" w_l1_24 [5:0] $end
+$var wire 6 3" w_l1_31 [5:0] $end
+$var wire 6 4" w_l1_32 [5:0] $end
+$var wire 6 5" w_l1_33 [5:0] $end
+$var wire 6 6" w_l1_34 [5:0] $end
+$var wire 6 7" w_l1_41 [5:0] $end
+$var wire 6 8" w_l1_42 [5:0] $end
+$var wire 6 9" w_l1_43 [5:0] $end
+$var wire 6 :" w_l1_44 [5:0] $end
+$var wire 6 ;" w_l2_11 [5:0] $end
+$var wire 6 <" w_l2_12 [5:0] $end
+$var wire 6 =" w_l2_21 [5:0] $end
+$var wire 6 >" w_l2_22 [5:0] $end
+$var wire 6 ?" w_l2_31 [5:0] $end
+$var wire 6 @" w_l2_32 [5:0] $end
+$var wire 6 A" w_l2_41 [5:0] $end
+$var wire 6 B" w_l2_42 [5:0] $end
+$var wire 6 C" w_l3_11 [5:0] $end
+$var wire 6 D" w_l3_21 [5:0] $end
+$var wire 6 E" w_l4_11 [5:0] $end
+$var wire 6 F" w_l5_11 [5:0] $end
+$var wire 6 G" w_l6_11 [5:0] $end
+$var wire 6 H" w_l6_12 [5:0] $end
+$var wire 6 I" w_l7_11 [5:0] $end
+$var wire 6 J" w_l7_12 [5:0] $end
+$var wire 6 K" w_l7_13 [5:0] $end
+$var wire 6 L" w_l7_14 [5:0] $end
+$var wire 6 M" w_l7_21 [5:0] $end
+$var wire 6 N" w_l7_22 [5:0] $end
+$var wire 6 O" w_l7_23 [5:0] $end
+$var wire 6 P" w_l7_24 [5:0] $end
+$var wire 6 Q" w_l8_11 [5:0] $end
+$var wire 6 R" w_l8_12 [5:0] $end
+$var wire 6 S" w_l8_13 [5:0] $end
+$var wire 6 T" w_l8_14 [5:0] $end
+$var wire 6 U" w_l8_21 [5:0] $end
+$var wire 6 V" w_l8_22 [5:0] $end
+$var wire 6 W" w_l8_23 [5:0] $end
+$var wire 6 X" w_l8_24 [5:0] $end
+$var wire 6 Y" w_l8_31 [5:0] $end
+$var wire 6 Z" w_l8_32 [5:0] $end
+$var wire 6 [" w_l8_33 [5:0] $end
+$var wire 6 \" w_l8_34 [5:0] $end
+$var wire 6 ]" w_l8_41 [5:0] $end
+$var wire 6 ^" w_l8_42 [5:0] $end
+$var wire 6 _" w_l8_43 [5:0] $end
+$var wire 6 `" w_l8_44 [5:0] $end
+$var wire 6 a" x1 [5:0] $end
+$var wire 6 b" x2 [5:0] $end
+$var wire 6 c" x3 [5:0] $end
+$var wire 6 d" x4 [5:0] $end
+$var wire 32 e" out_neuron_l8_4 [31:0] $end
+$var wire 32 f" out_neuron_l8_3 [31:0] $end
+$var wire 32 g" out_neuron_l8_2 [31:0] $end
+$var wire 32 h" out_neuron_l8_1 [31:0] $end
+$var wire 32 i" out_neuron_l7_4 [31:0] $end
+$var wire 32 j" out_neuron_l7_3 [31:0] $end
+$var wire 32 k" out_neuron_l7_2 [31:0] $end
+$var wire 32 l" out_neuron_l7_1 [31:0] $end
+$var wire 32 m" out_neuron_l6_2 [31:0] $end
+$var wire 32 n" out_neuron_l6_1 [31:0] $end
+$var wire 32 o" out_neuron_l5_1 [31:0] $end
+$var wire 32 p" out_neuron_l4_1 [31:0] $end
+$var wire 32 q" out_neuron_l3_1 [31:0] $end
+$var wire 32 r" out_neuron_l2_2 [31:0] $end
+$var wire 32 s" out_neuron_l2_1 [31:0] $end
+$var wire 32 t" out_neuron_l1_4 [31:0] $end
+$var wire 32 u" out_neuron_l1_3 [31:0] $end
+$var wire 32 v" out_neuron_l1_2 [31:0] $end
+$var wire 32 w" out_neuron_l1_1 [31:0] $end
+$scope module neuron_l1_1 $end
+$var wire 32 x" b [31:0] $end
+$var wire 32 y" f [31:0] $end
+$var wire 32 z" w1 [31:0] $end
+$var wire 32 {" w2 [31:0] $end
+$var wire 32 |" w3 [31:0] $end
+$var wire 32 }" w4 [31:0] $end
+$var wire 32 ~" x1 [31:0] $end
+$var wire 32 !# x2 [31:0] $end
+$var wire 32 "# x3 [31:0] $end
+$var wire 32 ## x4 [31:0] $end
+$var wire 32 $# w4x4 [31:0] $end
+$var wire 32 %# w3x3 [31:0] $end
+$var wire 32 &# w2x2 [31:0] $end
+$var wire 32 '# w1x1 [31:0] $end
+$var wire 32 (# output_x3x4 [31:0] $end
+$var wire 32 )# output_x1x2 [31:0] $end
+$var wire 32 *# output_relu [31:0] $end
+$var wire 32 +# output_bias [31:0] $end
+$var wire 32 ,# output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 -# a [31:0] $end
+$var wire 32 .# b [31:0] $end
+$var reg 32 /# f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l1_2 $end
+$var wire 32 0# b [31:0] $end
+$var wire 32 1# f [31:0] $end
+$var wire 32 2# w1 [31:0] $end
+$var wire 32 3# w2 [31:0] $end
+$var wire 32 4# w3 [31:0] $end
+$var wire 32 5# w4 [31:0] $end
+$var wire 32 6# x1 [31:0] $end
+$var wire 32 7# x2 [31:0] $end
+$var wire 32 8# x3 [31:0] $end
+$var wire 32 9# x4 [31:0] $end
+$var wire 32 :# w4x4 [31:0] $end
+$var wire 32 ;# w3x3 [31:0] $end
+$var wire 32 <# w2x2 [31:0] $end
+$var wire 32 =# w1x1 [31:0] $end
+$var wire 32 ># output_x3x4 [31:0] $end
+$var wire 32 ?# output_x1x2 [31:0] $end
+$var wire 32 @# output_relu [31:0] $end
+$var wire 32 A# output_bias [31:0] $end
+$var wire 32 B# output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 C# a [31:0] $end
+$var wire 32 D# b [31:0] $end
+$var reg 32 E# f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l1_3 $end
+$var wire 32 F# b [31:0] $end
+$var wire 32 G# f [31:0] $end
+$var wire 32 H# w1 [31:0] $end
+$var wire 32 I# w2 [31:0] $end
+$var wire 32 J# w3 [31:0] $end
+$var wire 32 K# w4 [31:0] $end
+$var wire 32 L# x1 [31:0] $end
+$var wire 32 M# x2 [31:0] $end
+$var wire 32 N# x3 [31:0] $end
+$var wire 32 O# x4 [31:0] $end
+$var wire 32 P# w4x4 [31:0] $end
+$var wire 32 Q# w3x3 [31:0] $end
+$var wire 32 R# w2x2 [31:0] $end
+$var wire 32 S# w1x1 [31:0] $end
+$var wire 32 T# output_x3x4 [31:0] $end
+$var wire 32 U# output_x1x2 [31:0] $end
+$var wire 32 V# output_relu [31:0] $end
+$var wire 32 W# output_bias [31:0] $end
+$var wire 32 X# output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 Y# a [31:0] $end
+$var wire 32 Z# b [31:0] $end
+$var reg 32 [# f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l1_4 $end
+$var wire 32 \# b [31:0] $end
+$var wire 32 ]# f [31:0] $end
+$var wire 32 ^# w1 [31:0] $end
+$var wire 32 _# w2 [31:0] $end
+$var wire 32 `# w3 [31:0] $end
+$var wire 32 a# w4 [31:0] $end
+$var wire 32 b# x1 [31:0] $end
+$var wire 32 c# x2 [31:0] $end
+$var wire 32 d# x3 [31:0] $end
+$var wire 32 e# x4 [31:0] $end
+$var wire 32 f# w4x4 [31:0] $end
+$var wire 32 g# w3x3 [31:0] $end
+$var wire 32 h# w2x2 [31:0] $end
+$var wire 32 i# w1x1 [31:0] $end
+$var wire 32 j# output_x3x4 [31:0] $end
+$var wire 32 k# output_x1x2 [31:0] $end
+$var wire 32 l# output_relu [31:0] $end
+$var wire 32 m# output_bias [31:0] $end
+$var wire 32 n# output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 o# a [31:0] $end
+$var wire 32 p# b [31:0] $end
+$var reg 32 q# f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l2_1 $end
+$var wire 32 r# b [31:0] $end
+$var wire 32 s# f [31:0] $end
+$var wire 32 t# w1 [31:0] $end
+$var wire 32 u# w2 [31:0] $end
+$var wire 32 v# w3 [31:0] $end
+$var wire 32 w# w4 [31:0] $end
+$var wire 32 x# x1 [31:0] $end
+$var wire 32 y# x2 [31:0] $end
+$var wire 32 z# x3 [31:0] $end
+$var wire 32 {# x4 [31:0] $end
+$var wire 32 |# w4x4 [31:0] $end
+$var wire 32 }# w3x3 [31:0] $end
+$var wire 32 ~# w2x2 [31:0] $end
+$var wire 32 !$ w1x1 [31:0] $end
+$var wire 32 "$ output_x3x4 [31:0] $end
+$var wire 32 #$ output_x1x2 [31:0] $end
+$var wire 32 $$ output_relu [31:0] $end
+$var wire 32 %$ output_bias [31:0] $end
+$var wire 32 &$ output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 '$ a [31:0] $end
+$var wire 32 ($ b [31:0] $end
+$var reg 32 )$ f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l2_2 $end
+$var wire 32 *$ b [31:0] $end
+$var wire 32 +$ f [31:0] $end
+$var wire 32 ,$ w1 [31:0] $end
+$var wire 32 -$ w2 [31:0] $end
+$var wire 32 .$ w3 [31:0] $end
+$var wire 32 /$ w4 [31:0] $end
+$var wire 32 0$ x1 [31:0] $end
+$var wire 32 1$ x2 [31:0] $end
+$var wire 32 2$ x3 [31:0] $end
+$var wire 32 3$ x4 [31:0] $end
+$var wire 32 4$ w4x4 [31:0] $end
+$var wire 32 5$ w3x3 [31:0] $end
+$var wire 32 6$ w2x2 [31:0] $end
+$var wire 32 7$ w1x1 [31:0] $end
+$var wire 32 8$ output_x3x4 [31:0] $end
+$var wire 32 9$ output_x1x2 [31:0] $end
+$var wire 32 :$ output_relu [31:0] $end
+$var wire 32 ;$ output_bias [31:0] $end
+$var wire 32 <$ output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 =$ a [31:0] $end
+$var wire 32 >$ b [31:0] $end
+$var reg 32 ?$ f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l3_1 $end
+$var wire 32 @$ b [31:0] $end
+$var wire 32 A$ f [31:0] $end
+$var wire 32 B$ w1 [31:0] $end
+$var wire 32 C$ w2 [31:0] $end
+$var wire 32 D$ x1 [31:0] $end
+$var wire 32 E$ x2 [31:0] $end
+$var wire 32 F$ w2x2 [31:0] $end
+$var wire 32 G$ w1x1 [31:0] $end
+$var wire 32 H$ output_relu [31:0] $end
+$var wire 32 I$ output_bias [31:0] $end
+$var wire 32 J$ output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 K$ a [31:0] $end
+$var wire 32 L$ b [31:0] $end
+$var reg 32 M$ f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l4_1 $end
+$var wire 32 N$ b [31:0] $end
+$var wire 32 O$ f [31:0] $end
+$var wire 32 P$ w1 [31:0] $end
+$var wire 32 Q$ x1 [31:0] $end
+$var wire 32 R$ w1x1 [31:0] $end
+$var wire 32 S$ output_relu [31:0] $end
+$var wire 32 T$ output_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 U$ a [31:0] $end
+$var wire 32 V$ b [31:0] $end
+$var reg 32 W$ f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l5_1 $end
+$var wire 32 X$ b [31:0] $end
+$var wire 32 Y$ f [31:0] $end
+$var wire 32 Z$ w1 [31:0] $end
+$var wire 32 [$ x1 [31:0] $end
+$var wire 32 \$ w1x1 [31:0] $end
+$var wire 32 ]$ output_relu [31:0] $end
+$var wire 32 ^$ output_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 _$ a [31:0] $end
+$var wire 32 `$ b [31:0] $end
+$var reg 32 a$ f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l6_1 $end
+$var wire 32 b$ b [31:0] $end
+$var wire 32 c$ f [31:0] $end
+$var wire 32 d$ w1 [31:0] $end
+$var wire 32 e$ x1 [31:0] $end
+$var wire 32 f$ w1x1 [31:0] $end
+$var wire 32 g$ output_relu [31:0] $end
+$var wire 32 h$ output_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 i$ a [31:0] $end
+$var wire 32 j$ b [31:0] $end
+$var reg 32 k$ f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l6_2 $end
+$var wire 32 l$ b [31:0] $end
+$var wire 32 m$ f [31:0] $end
+$var wire 32 n$ w1 [31:0] $end
+$var wire 32 o$ x1 [31:0] $end
+$var wire 32 p$ w1x1 [31:0] $end
+$var wire 32 q$ output_relu [31:0] $end
+$var wire 32 r$ output_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 s$ a [31:0] $end
+$var wire 32 t$ b [31:0] $end
+$var reg 32 u$ f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l7_1 $end
+$var wire 32 v$ b [31:0] $end
+$var wire 32 w$ f [31:0] $end
+$var wire 32 x$ w1 [31:0] $end
+$var wire 32 y$ w2 [31:0] $end
+$var wire 32 z$ x1 [31:0] $end
+$var wire 32 {$ x2 [31:0] $end
+$var wire 32 |$ w2x2 [31:0] $end
+$var wire 32 }$ w1x1 [31:0] $end
+$var wire 32 ~$ output_relu [31:0] $end
+$var wire 32 !% output_bias [31:0] $end
+$var wire 32 "% output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 #% a [31:0] $end
+$var wire 32 $% b [31:0] $end
+$var reg 32 %% f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l7_2 $end
+$var wire 32 &% b [31:0] $end
+$var wire 32 '% f [31:0] $end
+$var wire 32 (% w1 [31:0] $end
+$var wire 32 )% w2 [31:0] $end
+$var wire 32 *% x1 [31:0] $end
+$var wire 32 +% x2 [31:0] $end
+$var wire 32 ,% w2x2 [31:0] $end
+$var wire 32 -% w1x1 [31:0] $end
+$var wire 32 .% output_relu [31:0] $end
+$var wire 32 /% output_bias [31:0] $end
+$var wire 32 0% output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 1% a [31:0] $end
+$var wire 32 2% b [31:0] $end
+$var reg 32 3% f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l7_3 $end
+$var wire 32 4% b [31:0] $end
+$var wire 32 5% f [31:0] $end
+$var wire 32 6% w1 [31:0] $end
+$var wire 32 7% w2 [31:0] $end
+$var wire 32 8% x1 [31:0] $end
+$var wire 32 9% x2 [31:0] $end
+$var wire 32 :% w2x2 [31:0] $end
+$var wire 32 ;% w1x1 [31:0] $end
+$var wire 32 <% output_relu [31:0] $end
+$var wire 32 =% output_bias [31:0] $end
+$var wire 32 >% output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 ?% a [31:0] $end
+$var wire 32 @% b [31:0] $end
+$var reg 32 A% f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l7_4 $end
+$var wire 32 B% b [31:0] $end
+$var wire 32 C% f [31:0] $end
+$var wire 32 D% w1 [31:0] $end
+$var wire 32 E% w2 [31:0] $end
+$var wire 32 F% x1 [31:0] $end
+$var wire 32 G% x2 [31:0] $end
+$var wire 32 H% w2x2 [31:0] $end
+$var wire 32 I% w1x1 [31:0] $end
+$var wire 32 J% output_relu [31:0] $end
+$var wire 32 K% output_bias [31:0] $end
+$var wire 32 L% output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 M% a [31:0] $end
+$var wire 32 N% b [31:0] $end
+$var reg 32 O% f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l8_1 $end
+$var wire 32 P% b [31:0] $end
+$var wire 32 Q% f [31:0] $end
+$var wire 32 R% w1 [31:0] $end
+$var wire 32 S% w2 [31:0] $end
+$var wire 32 T% w3 [31:0] $end
+$var wire 32 U% w4 [31:0] $end
+$var wire 32 V% x1 [31:0] $end
+$var wire 32 W% x2 [31:0] $end
+$var wire 32 X% x3 [31:0] $end
+$var wire 32 Y% x4 [31:0] $end
+$var wire 32 Z% w4x4 [31:0] $end
+$var wire 32 [% w3x3 [31:0] $end
+$var wire 32 \% w2x2 [31:0] $end
+$var wire 32 ]% w1x1 [31:0] $end
+$var wire 32 ^% output_x3x4 [31:0] $end
+$var wire 32 _% output_x1x2 [31:0] $end
+$var wire 32 `% output_relu [31:0] $end
+$var wire 32 a% output_bias [31:0] $end
+$var wire 32 b% output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 c% a [31:0] $end
+$var wire 32 d% b [31:0] $end
+$var reg 32 e% f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l8_2 $end
+$var wire 32 f% b [31:0] $end
+$var wire 32 g% f [31:0] $end
+$var wire 32 h% w1 [31:0] $end
+$var wire 32 i% w2 [31:0] $end
+$var wire 32 j% w3 [31:0] $end
+$var wire 32 k% w4 [31:0] $end
+$var wire 32 l% x1 [31:0] $end
+$var wire 32 m% x2 [31:0] $end
+$var wire 32 n% x3 [31:0] $end
+$var wire 32 o% x4 [31:0] $end
+$var wire 32 p% w4x4 [31:0] $end
+$var wire 32 q% w3x3 [31:0] $end
+$var wire 32 r% w2x2 [31:0] $end
+$var wire 32 s% w1x1 [31:0] $end
+$var wire 32 t% output_x3x4 [31:0] $end
+$var wire 32 u% output_x1x2 [31:0] $end
+$var wire 32 v% output_relu [31:0] $end
+$var wire 32 w% output_bias [31:0] $end
+$var wire 32 x% output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 y% a [31:0] $end
+$var wire 32 z% b [31:0] $end
+$var reg 32 {% f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l8_3 $end
+$var wire 32 |% b [31:0] $end
+$var wire 32 }% f [31:0] $end
+$var wire 32 ~% w1 [31:0] $end
+$var wire 32 !& w2 [31:0] $end
+$var wire 32 "& w3 [31:0] $end
+$var wire 32 #& w4 [31:0] $end
+$var wire 32 $& x1 [31:0] $end
+$var wire 32 %& x2 [31:0] $end
+$var wire 32 && x3 [31:0] $end
+$var wire 32 '& x4 [31:0] $end
+$var wire 32 (& w4x4 [31:0] $end
+$var wire 32 )& w3x3 [31:0] $end
+$var wire 32 *& w2x2 [31:0] $end
+$var wire 32 +& w1x1 [31:0] $end
+$var wire 32 ,& output_x3x4 [31:0] $end
+$var wire 32 -& output_x1x2 [31:0] $end
+$var wire 32 .& output_relu [31:0] $end
+$var wire 32 /& output_bias [31:0] $end
+$var wire 32 0& output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 1& a [31:0] $end
+$var wire 32 2& b [31:0] $end
+$var reg 32 3& f [31:0] $end
+$upscope $end
+$upscope $end
+$scope module neuron_l8_4 $end
+$var wire 32 4& b [31:0] $end
+$var wire 32 5& f [31:0] $end
+$var wire 32 6& w1 [31:0] $end
+$var wire 32 7& w2 [31:0] $end
+$var wire 32 8& w3 [31:0] $end
+$var wire 32 9& w4 [31:0] $end
+$var wire 32 :& x1 [31:0] $end
+$var wire 32 ;& x2 [31:0] $end
+$var wire 32 <& x3 [31:0] $end
+$var wire 32 =& x4 [31:0] $end
+$var wire 32 >& w4x4 [31:0] $end
+$var wire 32 ?& w3x3 [31:0] $end
+$var wire 32 @& w2x2 [31:0] $end
+$var wire 32 A& w1x1 [31:0] $end
+$var wire 32 B& output_x3x4 [31:0] $end
+$var wire 32 C& output_x1x2 [31:0] $end
+$var wire 32 D& output_relu [31:0] $end
+$var wire 32 E& output_bias [31:0] $end
+$var wire 32 F& output_before_bias [31:0] $end
+$scope module RELU $end
+$var wire 32 G& a [31:0] $end
+$var wire 32 H& b [31:0] $end
+$var reg 32 I& f [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b110000101011010100000110010 I&
+b110000101011010100000110010 H&
+b110000101011010100000110010 G&
+b110000101011010100000111100 F&
+b110000101011010100000110010 E&
+b110000101011010100000110010 D&
+b11111011111000110011110100000111 C&
+b1010001100100110101100110101 B&
+b0 A&
+b11111011111000110011110100000111 @&
+b10101001001100011001110101 ?&
+b111100011011010010011000000 >&
+b101000010010001100010000 =&
+b11000001010111010100011 <&
+b100101100110010011111111 ;&
+b0 :&
+b1100 9&
+b111 8&
+b11111111111111111111111111111001 7&
+b11111111111111111111111111111001 6&
+b110000101011010100000110010 5&
+b11111111111111111111111111110110 4&
+b111000101110111101000010000 3&
+b111000101110111101000010000 2&
+b111000101110111101000010000 1&
+b111000101110111101000000110 0&
+b111000101110111101000010000 /&
+b111000101110111101000010000 .&
+b110011101100101011011110101 -&
+b101000010010001100010001 ,&
+b0 +&
+b110011101100101011011110101 *&
+b11111110000111001001011011010001 )&
+b10100001001000110001000000 (&
+b101000010010001100010000 '&
+b11000001010111010100011 &&
+b100101100110010011111111 %&
+b0 $&
+b100 #&
+b11111111111111111111111111111011 "&
+b1011 !&
+b1010 ~%
+b111000101110111101000010000 }%
+b1010 |%
+b1100000101011101010010011 {%
+b1100000101011101010010011 z%
+b1100000101011101010010011 y%
+b1100000101011101010001001 x%
+b1100000101011101010010011 w%
+b1100000101011101010010011 v%
+b11111100011110011010001000000110 u%
+b101000010010001100010000011 t%
+b0 s%
+b11111100011110011010001000000110 r%
+b11111010010101011100010001110011 q%
+b1010101100110101010000010000 p%
+b101000010010001100010000 o%
+b11000001010111010100011 n%
+b100101100110010011111111 m%
+b0 l%
+b10001 k%
+b11111111111111111111111111110001 j%
+b11111111111111111111111111111010 i%
+b11111111111111111111111111111001 h%
+b1100000101011101010010011 g%
+b1010 f%
+b1001101100011000001001011011 e%
+b1001101100011000001001011011 d%
+b1001101100011000001001011011 c%
+b1001101100011000001001100101 b%
+b1001101100011000001001011011 a%
+b1001101100011000001001011011 `%
+b101010010011000110011110111 _%
+b100011001111111010101101110 ^%
+b0 ]%
+b101010010011000110011110111 \%
+b11110001101101001001011110 [%
+b101000010010001100010000 Z%
+b101000010010001100010000 Y%
+b11000001010111010100011 X%
+b100101100110010011111111 W%
+b0 V%
+b1 U%
+b1010 T%
+b1001 S%
+b1011 R%
+b1001101100011000001001011011 Q%
+b11111111111111111111111111110110 P%
+b101000010010001100010000 O%
+b101000010010001100010000 N%
+b101000010010001100010000 M%
+b101000010010001100001110 L%
+b101000010010001100010000 K%
+b101000010010001100010000 J%
+b0 I%
+b101000010010001100001110 H%
+b10101011111000010010 G%
+b0 F%
+b1111 E%
+b1111 D%
+b101000010010001100010000 C%
+b10 B%
+b11000001010111010100011 A%
+b11000001010111010100011 @%
+b11000001010111010100011 ?%
+b11000001010111010100010 >%
+b11000001010111010100011 =%
+b11000001010111010100011 <%
+b0 ;%
+b11000001010111010100010 :%
+b10101011111000010010 9%
+b0 8%
+b1001 7%
+b1000 6%
+b11000001010111010100011 5%
+b1 4%
+b100101100110010011111111 3%
+b100101100110010011111111 2%
+b100101100110010011111111 1%
+b100101100110010011111100 0%
+b100101100110010011111111 /%
+b100101100110010011111111 .%
+b0 -%
+b100101100110010011111100 ,%
+b10101011111000010010 +%
+b0 *%
+b1110 )%
+b1110 (%
+b100101100110010011111111 '%
+b11 &%
+b0 %%
+b0 $%
+b11111111011010011001101100001001 #%
+b11111111011010011001101100000100 "%
+b11111111011010011001101100001001 !%
+b0 ~$
+b0 }$
+b11111111011010011001101100000100 |$
+b10101011111000010010 {$
+b0 z$
+b11111111111111111111111111110010 y$
+b100 x$
+b0 w$
+b101 v$
+b10101011111000010010 u$
+b10101011111000010010 t$
+b10101011111000010010 s$
+b10101011111000010010 r$
+b10101011111000010010 q$
+b10101011111000010010 p$
+b1100010001101111 o$
+b1110 n$
+b10101011111000010010 m$
+b0 l$
+b0 k$
+b0 j$
+b11111111111110011101110010011100 i$
+b11111111111110011101110010011100 h$
+b0 g$
+b11111111111110011101110010001000 f$
+b1100010001101111 e$
+b11111111111111111111111111111000 d$
+b0 c$
+b10100 b$
+b1100010001101111 a$
+b1100010001101111 `$
+b1100010001101111 _$
+b1100010001101111 ^$
+b1100010001101111 ]$
+b1100010001110011 \$
+b1100010001110011 [$
+b1 Z$
+b1100010001101111 Y$
+b11111111111111111111111111111100 X$
+b1100010001110011 W$
+b1100010001110011 V$
+b1100010001110011 U$
+b1100010001110011 T$
+b1100010001110011 S$
+b1100010001101001 R$
+b1110000001111 Q$
+b111 P$
+b1100010001110011 O$
+b1010 N$
+b1110000001111 M$
+b1110000001111 L$
+b1110000001111 K$
+b1110000001010 J$
+b1110000001111 I$
+b1110000001111 H$
+b1010000111100 G$
+b11111001110 F$
+b101001101 E$
+b101110010 D$
+b110 C$
+b1110 B$
+b1110000001111 A$
+b101 @$
+b101001101 ?$
+b101001101 >$
+b101001101 =$
+b101001001 <$
+b101001101 ;$
+b101001101 :$
+b1100010 9$
+b11100111 8$
+b11111111111111111111111111010110 7$
+b10001100 6$
+b1111110 5$
+b1101001 4$
+b111 3$
+b1110 2$
+b1010 1$
+b11 0$
+b1111 /$
+b1001 .$
+b1110 -$
+b11111111111111111111111111110010 ,$
+b101001101 +$
+b100 *$
+b101110010 )$
+b101110010 ($
+b101110010 '$
+b101110001 &$
+b101110010 %$
+b101110010 $$
+b10011000 #$
+b11011001 "$
+b1100 !$
+b10001100 ~#
+b1110000 }#
+b1101001 |#
+b111 {#
+b1110 z#
+b1010 y#
+b11 x#
+b1111 w#
+b1000 v#
+b1110 u#
+b100 t#
+b101110010 s#
+b1 r#
+b111 q#
+b111 p#
+b111 o#
+b1000 n#
+b111 m#
+b111 l#
+b1100 k#
+b11111111111111111111111111111100 j#
+b0 i#
+b1100 h#
+b11111111111111111111111111111100 g#
+b0 f#
+b0 e#
+b1 d#
+b1 c#
+b0 b#
+b11111111111111111111111111111000 a#
+b11111111111111111111111111111100 `#
+b1100 _#
+b10010 ^#
+b111 ]#
+b11111111111111111111111111111111 \#
+b1110 [#
+b1110 Z#
+b1110 Y#
+b1100 X#
+b1110 W#
+b1110 V#
+b11111111111111111111111111111101 U#
+b1111 T#
+b0 S#
+b11111111111111111111111111111101 R#
+b1111 Q#
+b0 P#
+b0 O#
+b1 N#
+b1 M#
+b0 L#
+b11111111111111111111111111101111 K#
+b1111 J#
+b11111111111111111111111111111101 I#
+b11 H#
+b1110 G#
+b10 F#
+b1010 E#
+b1010 D#
+b1010 C#
+b1010 B#
+b1010 A#
+b1010 @#
+b10000 ?#
+b11111111111111111111111111111010 >#
+b0 =#
+b10000 <#
+b11111111111111111111111111111010 ;#
+b0 :#
+b0 9#
+b1 8#
+b1 7#
+b0 6#
+b11111111111111111111111111110111 5#
+b11111111111111111111111111111010 4#
+b10000 3#
+b10101 2#
+b1010 1#
+b0 0#
+b11 /#
+b11 .#
+b11 -#
+b10 ,#
+b11 +#
+b11 *#
+b11111111111111111111111111111101 )#
+b101 (#
+b0 '#
+b11111111111111111111111111111101 &#
+b101 %#
+b0 $#
+b0 ##
+b1 "#
+b1 !#
+b0 ~"
+b11111111111111111111111111110000 }"
+b101 |"
+b11111111111111111111111111111101 {"
+b110 z"
+b11 y"
+b1 x"
+b11 w"
+b1010 v"
+b1110 u"
+b111 t"
+b101110010 s"
+b101001101 r"
+b1110000001111 q"
+b1100010001110011 p"
+b1100010001101111 o"
+b0 n"
+b10101011111000010010 m"
+b0 l"
+b100101100110010011111111 k"
+b11000001010111010100011 j"
+b101000010010001100010000 i"
+b1001101100011000001001011011 h"
+b1100000101011101010010011 g"
+b111000101110111101000010000 f"
+b110000101011010100000110010 e"
+b0 d"
+b1 c"
+b1 b"
+b0 a"
+b1100 `"
+b100 _"
+b10001 ^"
+b1 ]"
+b111 \"
+b111011 ["
+b110001 Z"
+b1010 Y"
+b111001 X"
+b1011 W"
+b111010 V"
+b1001 U"
+b111001 T"
+b1010 S"
+b111001 R"
+b1011 Q"
+b1111 P"
+b1001 O"
+b1110 N"
+b110010 M"
+b1111 L"
+b1000 K"
+b1110 J"
+b100 I"
+b1110 H"
+b111000 G"
+b1 F"
+b111 E"
+b110 D"
+b1110 C"
+b1111 B"
+b1111 A"
+b1001 @"
+b1000 ?"
+b1110 >"
+b1110 ="
+b110010 <"
+b100 ;"
+b111000 :"
+b101111 9"
+b110111 8"
+b110000 7"
+b111100 6"
+b1111 5"
+b111010 4"
+b101 3"
+b1100 2"
+b111101 1"
+b10000 0"
+b111101 /"
+b10010 ."
+b11 -"
+b10101 ,"
+b110 +"
+b110000101011010100000110010 *"
+b111000101110111101000010000 )"
+b1100000101011101010010011 ("
+b1001101100011000001001011011 '"
+b110110 &"
+b1010 %"
+b1010 $"
+b110110 #"
+b10 ""
+b1 !"
+b11 ~
+b101 }
+b0 |
+b10100 {
+b111100 z
+b1010 y
+b101 x
+b100 w
+b1 v
+b111111 u
+b10 t
+b0 s
+b1 r
+b0 q
+b1 p
+b1 o
+b0 n
+b1100 m
+b100 l
+b10001 k
+b1 j
+b111 i
+b111011 h
+b110001 g
+b1010 f
+b111001 e
+b1011 d
+b111010 c
+b1001 b
+b111001 a
+b1010 `
+b111001 _
+b1011 ^
+b1111 ]
+b1001 \
+b1110 [
+b110010 Z
+b1111 Y
+b1000 X
+b1110 W
+b100 V
+b1110 U
+b111000 T
+b1 S
+b111 R
+b110 Q
+b1110 P
+b1111 O
+b1111 N
+b1001 M
+b1000 L
+b1110 K
+b1110 J
+b110010 I
+b100 H
+b111000 G
+b101111 F
+b110111 E
+b110000 D
+b111100 C
+b1111 B
+b111010 A
+b101 @
+b1100 ?
+b111101 >
+b10000 =
+b111101 <
+b10010 ;
+b11 :
+b10101 9
+b110 8
+b110110 7
+b1010 6
+b1010 5
+b110110 4
+b10 3
+b1 2
+b11 1
+b101 0
+b0 /
+b10100 .
+b111100 -
+b1010 ,
+b101 +
+b100 *
+b1 )
+b111111 (
+b10 '
+b0 &
+b1 %
+b1001101100011000001001011011 $
+b1100000101011101010010011 #
+b111000101110111101000010000 "
+b110000101011010100000110010 !
+$end
+#20

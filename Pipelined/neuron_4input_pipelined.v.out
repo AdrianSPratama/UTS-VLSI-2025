@@ -1,0 +1,158 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000002598d8261d0 .scope module, "neuron_4input_pipelined" "neuron_4input_pipelined" 2 4;
+ .timescale 0 0;
+    .port_info 0 /INPUT 32 "x1";
+    .port_info 1 /INPUT 32 "x2";
+    .port_info 2 /INPUT 32 "x3";
+    .port_info 3 /INPUT 32 "x4";
+    .port_info 4 /INPUT 32 "w1";
+    .port_info 5 /INPUT 32 "w2";
+    .port_info 6 /INPUT 32 "w3";
+    .port_info 7 /INPUT 32 "w4";
+    .port_info 8 /INPUT 32 "b";
+    .port_info 9 /OUTPUT 32 "f";
+    .port_info 10 /INPUT 1 "enable";
+    .port_info 11 /INPUT 1 "clock";
+    .port_info 12 /INPUT 1 "reset";
+L_000002598d814ac0 .functor BUFZ 32, v000002598d826590_0, C4<00000000000000000000000000000000>, C4<00000000000000000000000000000000>, C4<00000000000000000000000000000000>;
+o000002598d82f0c8 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000002598d823730_0 .net/s "b", 31 0, o000002598d82f0c8;  0 drivers
+o000002598d82f0f8 .functor BUFZ 1, C4<z>; HiZ drive
+v000002598d8237d0_0 .net "clock", 0 0, o000002598d82f0f8;  0 drivers
+o000002598d82f128 .functor BUFZ 1, C4<z>; HiZ drive
+v000002598d823870_0 .net "enable", 0 0, o000002598d82f128;  0 drivers
+v000002598d823910_0 .net/s "f", 31 0, L_000002598d814ac0;  1 drivers
+v000002598d8239b0_0 .net/s "output_before_bias", 31 0, L_000002598d87a970;  1 drivers
+v000002598d823a50_0 .net/s "output_bias", 31 0, L_000002598d87b370;  1 drivers
+v000002598d823af0_0 .net/s "output_relu", 31 0, v000002598d826590_0;  1 drivers
+v000002598d823b90_0 .net/s "output_x1x2", 31 0, L_000002598d87b7d0;  1 drivers
+v000002598d87ad30_0 .net/s "output_x3x4", 31 0, L_000002598d87b2d0;  1 drivers
+v000002598d87afb0 .array/s "pipe", 3 0, 31 0;
+o000002598d82f2d8 .functor BUFZ 1, C4<z>; HiZ drive
+v000002598d87aa10_0 .net "reset", 0 0, o000002598d82f2d8;  0 drivers
+o000002598d82f308 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000002598d87aab0_0 .net/s "w1", 31 0, o000002598d82f308;  0 drivers
+v000002598d87b410_0 .net/s "w1x1", 31 0, L_000002598d87b730;  1 drivers
+o000002598d82f368 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000002598d87ab50_0 .net/s "w2", 31 0, o000002598d82f368;  0 drivers
+v000002598d87b690_0 .net/s "w2x2", 31 0, L_000002598d87b190;  1 drivers
+o000002598d82f3c8 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000002598d87b550_0 .net/s "w3", 31 0, o000002598d82f3c8;  0 drivers
+v000002598d87add0_0 .net/s "w3x3", 31 0, L_000002598d87b0f0;  1 drivers
+o000002598d82f428 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000002598d87ae70_0 .net/s "w4", 31 0, o000002598d82f428;  0 drivers
+v000002598d87abf0_0 .net/s "w4x4", 31 0, L_000002598d87b230;  1 drivers
+o000002598d82f488 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000002598d87af10_0 .net/s "x1", 31 0, o000002598d82f488;  0 drivers
+o000002598d82f4b8 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000002598d87b5f0_0 .net/s "x2", 31 0, o000002598d82f4b8;  0 drivers
+o000002598d82f4e8 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000002598d87b050_0 .net/s "x3", 31 0, o000002598d82f4e8;  0 drivers
+o000002598d82f518 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000002598d87b4b0_0 .net/s "x4", 31 0, o000002598d82f518;  0 drivers
+E_000002598d8184a0 .event posedge, v000002598d8237d0_0;
+L_000002598d87b730 .arith/mult 32, o000002598d82f308, o000002598d82f488;
+L_000002598d87b190 .arith/mult 32, o000002598d82f368, o000002598d82f4b8;
+L_000002598d87b0f0 .arith/mult 32, o000002598d82f3c8, o000002598d82f4e8;
+L_000002598d87b230 .arith/mult 32, o000002598d82f428, o000002598d82f518;
+v000002598d87afb0_0 .array/port v000002598d87afb0, 0;
+v000002598d87afb0_1 .array/port v000002598d87afb0, 1;
+L_000002598d87b7d0 .arith/sum 32, v000002598d87afb0_0, v000002598d87afb0_1;
+v000002598d87afb0_2 .array/port v000002598d87afb0, 2;
+v000002598d87afb0_3 .array/port v000002598d87afb0, 3;
+L_000002598d87b2d0 .arith/sum 32, v000002598d87afb0_2, v000002598d87afb0_3;
+L_000002598d87a970 .arith/sum 32, L_000002598d87b7d0, L_000002598d87b2d0;
+L_000002598d87b370 .arith/sum 32, L_000002598d87a970, o000002598d82f0c8;
+S_000002598d826360 .scope module, "RELU" "relu_32b4" 2 57, 3 1 0, S_000002598d8261d0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 32 "a";
+    .port_info 1 /OUTPUT 32 "b";
+v000002598d8264f0_0 .net/s "a", 31 0, L_000002598d87b370;  alias, 1 drivers
+v000002598d766f20_0 .net/s "b", 31 0, v000002598d826590_0;  alias, 1 drivers
+v000002598d826590_0 .var/s "f", 31 0;
+E_000002598d818920 .event anyedge, v000002598d8264f0_0;
+    .scope S_000002598d826360;
+T_0 ;
+    %wait E_000002598d818920;
+    %load/vec4 v000002598d8264f0_0;
+    %cmpi/s 0, 0, 32;
+    %jmp/0xz  T_0.0, 5;
+    %pushi/vec4 0, 0, 32;
+    %assign/vec4 v000002598d826590_0, 0;
+    %jmp T_0.1;
+T_0.0 ;
+    %load/vec4 v000002598d8264f0_0;
+    %assign/vec4 v000002598d826590_0, 0;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0, $push;
+    .scope S_000002598d8261d0;
+T_1 ;
+    %wait E_000002598d8184a0;
+    %load/vec4 v000002598d87aa10_0;
+    %nor/r;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_1.0, 8;
+    %pushi/vec4 0, 0, 32;
+    %ix/load 3, 0, 0;
+    %flag_set/imm 4, 0;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v000002598d87afb0, 0, 4;
+    %pushi/vec4 0, 0, 32;
+    %ix/load 3, 1, 0;
+    %flag_set/imm 4, 0;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v000002598d87afb0, 0, 4;
+    %pushi/vec4 0, 0, 32;
+    %ix/load 3, 2, 0;
+    %flag_set/imm 4, 0;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v000002598d87afb0, 0, 4;
+    %pushi/vec4 0, 0, 32;
+    %ix/load 3, 3, 0;
+    %flag_set/imm 4, 0;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v000002598d87afb0, 0, 4;
+    %jmp T_1.1;
+T_1.0 ;
+    %load/vec4 v000002598d823870_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_1.2, 8;
+    %load/vec4 v000002598d87b410_0;
+    %ix/load 3, 0, 0;
+    %flag_set/imm 4, 0;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v000002598d87afb0, 0, 4;
+    %load/vec4 v000002598d87b690_0;
+    %ix/load 3, 1, 0;
+    %flag_set/imm 4, 0;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v000002598d87afb0, 0, 4;
+    %load/vec4 v000002598d87add0_0;
+    %ix/load 3, 2, 0;
+    %flag_set/imm 4, 0;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v000002598d87afb0, 0, 4;
+    %load/vec4 v000002598d87abf0_0;
+    %ix/load 3, 3, 0;
+    %flag_set/imm 4, 0;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v000002598d87afb0, 0, 4;
+T_1.2 ;
+T_1.1 ;
+    %jmp T_1;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "neuron_4input_pipelined.v";
+    "./relu_32b4.v";

@@ -1,0 +1,87 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000001f44ab262e0 .scope module, "neuron_4input_baseline" "neuron_4input_baseline" 2 3;
+ .timescale 0 0;
+    .port_info 0 /INPUT 32 "x1";
+    .port_info 1 /INPUT 32 "x2";
+    .port_info 2 /INPUT 32 "x3";
+    .port_info 3 /INPUT 32 "x4";
+    .port_info 4 /INPUT 32 "w1";
+    .port_info 5 /INPUT 32 "w2";
+    .port_info 6 /INPUT 32 "w3";
+    .port_info 7 /INPUT 32 "w4";
+    .port_info 8 /INPUT 32 "b";
+    .port_info 9 /OUTPUT 32 "f";
+L_000001f44ab15f00 .functor BUFZ 32, v000001f44ac86d50_0, C4<00000000000000000000000000000000>, C4<00000000000000000000000000000000>, C4<00000000000000000000000000000000>;
+o000001f44ab2c0c8 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000001f44ac86df0_0 .net/s "b", 31 0, o000001f44ab2c0c8;  0 drivers
+v000001f44ac86e90_0 .net/s "f", 31 0, L_000001f44ab15f00;  1 drivers
+v000001f44ab22d00_0 .net/s "output_before_bias", 31 0, L_000001f44ab240b0;  1 drivers
+v000001f44ab22da0_0 .net/s "output_bias", 31 0, L_000001f44ab23390;  1 drivers
+v000001f44ab22e40_0 .net/s "output_relu", 31 0, v000001f44ac86d50_0;  1 drivers
+v000001f44ab22ee0_0 .net/s "output_x1x2", 31 0, L_000001f44ab23890;  1 drivers
+v000001f44ab22f80_0 .net/s "output_x3x4", 31 0, L_000001f44ab23930;  1 drivers
+o000001f44ab2c1b8 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000001f44ab23020_0 .net/s "w1", 31 0, o000001f44ab2c1b8;  0 drivers
+v000001f44ab230c0_0 .net/s "w1x1", 31 0, L_000001f44ab23a70;  1 drivers
+o000001f44ab2c218 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000001f44ab23e30_0 .net/s "w2", 31 0, o000001f44ab2c218;  0 drivers
+v000001f44ab23bb0_0 .net/s "w2x2", 31 0, L_000001f44ab23d90;  1 drivers
+o000001f44ab2c278 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000001f44ab23ed0_0 .net/s "w3", 31 0, o000001f44ab2c278;  0 drivers
+v000001f44ab23c50_0 .net/s "w3x3", 31 0, L_000001f44ab237f0;  1 drivers
+o000001f44ab2c2d8 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000001f44ab23b10_0 .net/s "w4", 31 0, o000001f44ab2c2d8;  0 drivers
+v000001f44ab23cf0_0 .net/s "w4x4", 31 0, L_000001f44ab23750;  1 drivers
+o000001f44ab2c338 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000001f44ab236b0_0 .net/s "x1", 31 0, o000001f44ab2c338;  0 drivers
+o000001f44ab2c368 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000001f44ab23f70_0 .net/s "x2", 31 0, o000001f44ab2c368;  0 drivers
+o000001f44ab2c398 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000001f44ab24010_0 .net/s "x3", 31 0, o000001f44ab2c398;  0 drivers
+o000001f44ab2c3c8 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000001f44ab232f0_0 .net/s "x4", 31 0, o000001f44ab2c3c8;  0 drivers
+L_000001f44ab23a70 .arith/mult 32, o000001f44ab2c1b8, o000001f44ab2c338;
+L_000001f44ab23d90 .arith/mult 32, o000001f44ab2c218, o000001f44ab2c368;
+L_000001f44ab237f0 .arith/mult 32, o000001f44ab2c278, o000001f44ab2c398;
+L_000001f44ab23750 .arith/mult 32, o000001f44ab2c2d8, o000001f44ab2c3c8;
+L_000001f44ab23890 .arith/sum 32, L_000001f44ab23a70, L_000001f44ab23d90;
+L_000001f44ab23930 .arith/sum 32, L_000001f44ab237f0, L_000001f44ab23750;
+L_000001f44ab240b0 .arith/sum 32, L_000001f44ab23890, L_000001f44ab23930;
+L_000001f44ab23390 .arith/sum 32, L_000001f44ab240b0, o000001f44ab2c0c8;
+S_000001f44ac86b20 .scope module, "RELU" "relu_32b4" 2 35, 3 1 0, S_000001f44ab262e0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 32 "a";
+    .port_info 1 /OUTPUT 32 "b";
+v000001f44ab26520_0 .net/s "a", 31 0, L_000001f44ab23390;  alias, 1 drivers
+v000001f44ac86cb0_0 .net/s "b", 31 0, v000001f44ac86d50_0;  alias, 1 drivers
+v000001f44ac86d50_0 .var/s "f", 31 0;
+E_000001f44ab149e0 .event anyedge, v000001f44ab26520_0;
+    .scope S_000001f44ac86b20;
+T_0 ;
+    %wait E_000001f44ab149e0;
+    %load/vec4 v000001f44ab26520_0;
+    %cmpi/s 0, 0, 32;
+    %jmp/0xz  T_0.0, 5;
+    %pushi/vec4 0, 0, 32;
+    %assign/vec4 v000001f44ac86d50_0, 0;
+    %jmp T_0.1;
+T_0.0 ;
+    %load/vec4 v000001f44ab26520_0;
+    %assign/vec4 v000001f44ac86d50_0, 0;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0, $push;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "neuron_4input_baseline.v";
+    "./relu_32b4.v";
